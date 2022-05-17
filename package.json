@@ -1,14 +1,15 @@
 {
   "name": "snippet-boilerplate",
   "version": "1.0.0",
-  "description": "Extremely minimal starter code for simple front end tests or demos",
+  "description": "Minimal starter code for simple front end tests or demos",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "browser-sync start --server 'src' --files 'src'"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "browser-sync": "^2.27.10",
     "eslint": "^7.20.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-prettier": "^8.1.0",
